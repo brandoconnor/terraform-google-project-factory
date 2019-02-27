@@ -14,4 +14,6 @@
  * limitations under the License.
  */
 
-variable "credentials_path" {}
+variable "credentials_path" {
+  description = "Path to a Service Account credentials file with permissions documented in the readme"
+}
